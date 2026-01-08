@@ -96,11 +96,21 @@ yarn dev
 
 ---
 
+## 🌐 Links Úteis
+
+* **Frontend hospedado (Vercel):** [https://parkia-frontend.vercel.app](https://parkia-frontend.vercel.app)
+* **Repositório do Backend:** [Link do Backend](https://github.com/seu-usuario/parkia-backend)
+
+> Substitua `https://github.com/seu-usuario/parkia-backend` pelo link real do repositório do backend.
+
+---
+
 ## 📌 Observações
 
 * Compatível com navegadores modernos
 * Totalmente integrado ao backend do Parkia
 
 ---
+
 
 Quer que eu faça isso?
