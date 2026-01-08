@@ -1,3 +1,7 @@
+# Parkia – Frontend
+
+[![React](https://img.shields.io/badge/React-18.x-blue)](https://reactjs.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue)](https://www.typescriptlang.org/) [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.x-green)](https://tailwindcss.com/) [![Axios](https://img.shields.io/badge/Axios-HTTP-orange)](https://axios-http.com/)
+
 ## 🎯 Sobre o Projeto
 
 O frontend do **Parkia** oferece uma interface moderna e intuitiva para o gerenciamento de estacionamentos inteligentes.
