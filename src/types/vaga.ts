@@ -1,3 +1,5 @@
+import type { TipoVeiculo } from "./movimentacao";
+
 export type StatusVaga = "LIVRE" | "OCUPADA" | "MANUTENCAO";
 export type TipoVaga = "CARRO" | "MOTO" | "DEFICIENTE";
 
