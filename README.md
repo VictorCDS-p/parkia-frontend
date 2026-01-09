@@ -147,12 +147,6 @@ A partir desse momento, o frontend passará a consumir a API hospedada no Render
 
 
 ---
-Boa pergunta — isso é **exatamente** o tipo de coisa que avaliadores gostam de ver 👍
-Vou te entregar um texto pronto, bem profissional, para **adicionar no README do frontend**.
-
-Você só precisa **copiar e colar** a seção abaixo (recomendo colocar logo antes de “Links Úteis” ou após “Tecnologias Utilizadas”).
-
----
 
 ## 🧠 Decisões Técnicas e de UX
 
