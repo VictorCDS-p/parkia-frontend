@@ -317,6 +317,7 @@ export default function VagasGrid() {
                   <option value="MOTO">Moto</option>
                 </select>
               </div>
+              {editingVaga && (
               <div>
                 <label className="mb-1 block text-sm font-medium text-foreground">Status</label>
                 <select
@@ -329,6 +330,7 @@ export default function VagasGrid() {
                   <option value="MANUTENCAO">Manutenção</option>
                 </select>
               </div>
+              )}
               <div className="flex justify-end gap-2">
                 <button type="button" onClick={() => setIsModalOpen(false)} className="cursor-pointer transition-all hover:scale-105 rounded-md px-4 py-2 text-sm font-medium text-muted-foreground hover:bg-secondary">Cancelar</button>
                 <button type="submit" className="cursor-pointer transition-all hover:scale-105 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90">Salvar</button>
