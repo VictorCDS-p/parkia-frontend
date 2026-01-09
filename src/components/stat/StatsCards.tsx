@@ -10,8 +10,9 @@ import {
 
 export default function StatsCards() {
   const { data } = useQuery({
-    queryKey: ["stats"],
+    queryKey: ["estatisticas"],
     queryFn: () => estatisticasVagas().then((r) => r.data),
+    refetchInterval: 2000,
   });
 
   if (!data) return null;
