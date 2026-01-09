@@ -100,6 +100,46 @@ yarn dev
 
 ---
 
+## 🔗 Configuração da API (Backend)
+
+Por padrão, o frontend consome a API local em `http://localhost:3000`.
+Caso queira utilizar a API hospedada em produção, é necessário ajustar o arquivo de configuração do cliente HTTP.
+
+### API em Produção (Render)
+
+* **API hospedada (Render):**
+  👉 [https://parkia-backend.onrender.com](https://parkia-backend.onrender.com)
+
+### Como configurar
+
+1. Acesse o arquivo do client de API:
+
+```ts
+src/api/client.ts
+```
+
+2. Altere a `baseURL` para o endereço da API em produção:
+
+```ts
+import axios from "axios";
+
+export const api = axios.create({
+  baseURL: "https://parkia-backend.onrender.com",
+});
+```
+
+3. Salve o arquivo e reinicie o frontend:
+
+```bash
+npm run dev
+# ou
+yarn dev
+```
+
+A partir desse momento, o frontend passará a consumir a API hospedada no Render.
+
+---
+
 ## 🌐 Links Úteis
 
 * **Frontend hospedado (Vercel):** [https://parkia-frontend.vercel.app](https://parkia-frontend.vercel.app)
