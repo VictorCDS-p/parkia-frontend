@@ -107,13 +107,34 @@ yarn dev
 
 
 ---
+Boa pergunta — isso é **exatamente** o tipo de coisa que avaliadores gostam de ver 👍
+Vou te entregar um texto pronto, bem profissional, para **adicionar no README do frontend**.
 
+Você só precisa **copiar e colar** a seção abaixo (recomendo colocar logo antes de “Links Úteis” ou após “Tecnologias Utilizadas”).
+
+---
+
+## 🧠 Decisões Técnicas e de UX
+
+Durante o desenvolvimento do frontend do **Parkia**, algumas decisões técnicas e de experiência do usuário (UX) foram tomadas para tornar a aplicação mais clara, objetiva e agradável visualmente.
+
+### Exibição da Placa Diretamente na Vaga
+
+Uma das principais decisões foi **exibir a placa do veículo diretamente no card da vaga ocupada**, em vez de manter essa informação apenas em listas ou telas separadas.
+
+**Motivações dessa decisão:**
+
+* Reduz a necessidade de navegação entre telas para identificar veículos.
+* Melhora a leitura visual do estacionamento em tempo real.
+* Mantém a interface mais limpa e objetiva, evitando excesso de modais ou tabelas.
+* Facilita a operação diária do estacionamento, permitindo identificação rápida de cada vaga ocupada.
+
+Essa abordagem prioriza **clareza visual, agilidade operacional e simplicidade**, alinhando o layout da aplicação a um cenário real de uso.
+
+---
 ## 📌 Observações
 
 * Compatível com navegadores modernos
 * Totalmente integrado ao backend do Parkia
 
 ---
-
-
-Quer que eu faça isso?
