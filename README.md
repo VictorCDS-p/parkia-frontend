@@ -50,8 +50,7 @@ Funcionalidades principais:
   * Valor da 1ª hora
   * Valor das horas adicionais
   * Tempo de tolerância
-* Consulta de histórico de tarifas por veículo.
-
+  
 ### 📊 Dashboard (`Landing`)
 
 * Visão geral das estatísticas de ocupação.
